@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+video {
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+}
+body{
+    justify-content: center;
+    position: relative;
+}
+.header{
+    padding: 20px 0px;
+    text-align: center;
+    justify-content: center;
+    border: 3px solid green;
+    border-radius: 20px;
+    margin: 100px 500px;
+}
+span{
+    font-size: 150px;
+    color: green;
+}
+.para{
+    margin-top: 20px;
+}
+h2{
+    font-size: 30px;
+    color: green;
+}
+p{
+    font-size: 25px;
+    margin-top: 12px;
+    color: green;
+}
+button{
+    margin-top: 20px;
+    padding: 4px 20px;
+    background-color: darksalmon;
+    
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
