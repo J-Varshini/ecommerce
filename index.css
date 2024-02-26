@@ -1,0 +1,336 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color:orange;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+
+}
+.searchbar input{
+    border: 2px solid back;
+    border-radius: 20px;
+    padding: 10px 350px;
+    padding-left: 10px;
+}
+.searchbar button{
+    position: absolute;
+    right: 680px;
+    top: 20.5px;
+    padding: 9px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+ul{
+    display: flex;
+    margin-right: 40px;
+
+}
+.icon{
+    list-style-type: none;
+    font-size: 20px;
+    color: blue;
+}
+ ul a{
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+/* ====================================================================================== */
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 110px;
+    background-color:darkturquoise;
+    margin-top:85px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.header2 a{
+    text-decoration: none;
+    color: black;
+}
+/* ================================================================================================== */
+.header3{
+    display: flex;
+    
+}
+.left img{
+    z-index: -1;
+    width: 750px;
+    height:477px ;
+    animation-name: left;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes left{
+    0%{
+        opacity: 0.1;
+    }
+    25%{
+        opacity: 0.3;
+    }
+    50%{
+        opacity:0.5;
+    }
+    75%{
+        opacity: 0.7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.right{
+    width:770px;
+    height: 475px;
+    background-image: url("mobileanimation.png");
+    background-repeat: no-repeat;
+    background-size: 770px 477px;
+    animation-name: ani;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes ani{
+    15%{
+        background-image: url("womenanimation.png");
+    }
+    25%{
+        background-image: url("kidsanimation.png");
+    }
+    50%{
+        background-image: url("headphoneanimation.png");
+    }
+    75%{
+        background-image: url("menanimation.png") ;
+    }
+    100%{
+        background-image: url("cameraanimation.png");
+    }
+}
+/* =================================================================================================================== */
+.header4{
+    display: flex;
+    background:linear-gradient(to right,lightpink,deeppink);
+    justify-content: space-between;
+    padding: 40px 50px;
+    
+}
+.header4 a{
+    text-decoration: none;
+    color: black;
+}
+.col1{
+    background-color: cornsilk;
+    border: 2px solid black;
+    padding: 20px;
+
+}
+#first1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+#second1{
+    display: flex;
+    justify-content: space-between;
+}
+.col2{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+#second2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col3{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second3{
+    display: flex;
+    justify-content: space-between;
+}
+/* ====================================================================== */
+.header5{
+    display: flex;
+    background:linear-gradient(to right,lightpink,deeppink);
+    justify-content: space-between;
+    padding: 40px 50px;
+
+}
+.header5 a{
+    text-decoration: none;
+    color: black;
+}
+.col4{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second4{
+    display: flex;
+    justify-content: space-between;
+}
+.col5{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first5{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second5{
+    display: flex;
+    justify-content: space-between;
+}
+.col6{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first6{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second6{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =================================================================================================== */
+
+.header6{
+    display: flex;
+    background: linear-gradient(to right,lightpink,deeppink);
+    padding: 70px 270px;
+}
+#left{
+    margin-right: 20px;
+}
+#right{
+    margin-left:20px ;
+}
+/* ======================================================================================================== */
+
+.header7{
+    background: linear-gradient(to right,lightpink,deeppink);
+    text-align: center;
+    padding-bottom:70px ;
+}
+/* ================================================================================================================== */
+
+.header8{
+    display: flex;
+    background:linear-gradient(to right,lightpink,deeppink);
+    justify-content: space-between;
+    padding: 40px 50px;
+}
+.header8 a{
+    text-decoration: none;
+    color: black;
+}
+.col8{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first8{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second8{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col9{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first9{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second9{
+    display: flex;
+    justify-content: space-between;
+}
+
+.col10{
+    border: 2px solid black;
+    background-color: cornsilk;
+    padding: 20px;
+}
+#first10{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+#second10{
+    display: flex;
+    justify-content: space-between;
+}
+/* ======================================================================================================= */
+
+.header9{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px 0px;
+}
+.header9 a{
+    text-decoration: none;
+}
+/* ==================================================================================================== */
+
+.header10 table{
+    width:100%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 30px 0px;
+}
+th{
+    padding-top: 20px 0px
+}
+td{
+    padding: 0px 110px;
+}
