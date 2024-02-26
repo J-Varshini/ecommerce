@@ -1,0 +1,380 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.header1{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color:orange;
+    padding: 20px;
+    position: fixed;
+    top: 0px;
+
+}
+.searchbar input{
+    border: 2px solid back;
+    border-radius: 20px;
+    padding: 10px 350px;
+    padding-left: 10px;
+}
+.searchbar button{
+    position: absolute;
+    right: 680px;
+    top: 20.5px;
+    padding: 9px 10px;
+    border-radius: 20px;
+    color: white;
+    background-color: black;
+}
+ul{
+    display: flex;
+    margin-right: 40px;
+
+}
+.icon{
+    list-style-type: none;
+    font-size: 20px;
+    color: blue;
+}
+ ul a{
+    margin-right: 80px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+/* ====================================================================================== */
+.header2{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 110px;
+    background-color:darkturquoise;
+    margin-top:85px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+}
+.header2 a{
+    text-decoration: none;
+    color: black;
+}
+/* ================================================================================================== */
+
+.header3{
+    display: flex;
+    background:linear-gradient(to right,lightpink,deeppink);
+    padding: 43px 20px;
+    
+}
+.header3 .left{
+    padding: 20px;
+    width: 750px;
+    font-size: 20px;
+}
+.header3 .right{
+    background-image: url("women.png");
+    background-repeat: no-repeat;
+    background-size: 300px 350px;
+    width: 300px;
+    height: 350px;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+.right img{
+    padding: 20px;
+
+}
+@keyframes animation{
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+/* ================================================================================================ */
+.header4{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.u1 li{
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.child1{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child1 p{
+    padding: 10px;
+}
+.child1:hover{
+    margin-top: 10px;
+}
+.star{
+    color: orange;
+    padding: 10px;
+}
+.child2{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child2 p{
+    padding: 10px;
+}
+.child2:hover{
+    margin-top: 10px;
+}
+.child3{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child3 p{
+    padding: 10px;
+}
+.child3:hover{
+    margin-top: 10px;
+}
+.child4{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child4 p{
+    padding: 10px;
+}
+.child4:hover{
+    margin-top: 10px;
+}
+.header4 .buy{
+    background-color: red;
+    padding: 0px 10px;
+
+}
+/* ============================================================================================= */
+.header5{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.u2 li{
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.child5{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child5 p{
+    padding: 10px;
+}
+.child5:hover{
+    margin-top: 10px;
+}
+.star{
+    color: orange;
+    padding: 10px;
+}
+.child6{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child6 p{
+    padding: 10px;
+}
+.child6:hover{
+    margin-top: 10px;
+}
+.child7{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child7 p{
+    padding: 10px;
+}
+.child7:hover{
+    margin-top: 10px;
+}
+.child8{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child8 p{
+    padding: 10px;
+}
+.child8:hover{
+    margin-top: 10px;
+}
+.header5 .buy{
+    background-color: red;
+    padding: 0px 10px;
+
+}
+/* ================================================================================================================================ */
+
+.header6{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.u3 li{
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.child9{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child9 p{
+    padding: 10px;
+}
+.child9:hover{
+    margin-top: 10px;
+}
+.star{
+    color: orange;
+    padding: 10px;
+}
+.child10{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child10 p{
+    padding: 10px;
+}
+.child10:hover{
+    margin-top: 10px;
+}
+.child11{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child11 p{
+    padding: 10px;
+}
+.child11:hover{
+    margin-top: 10px;
+}
+.child12{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child12 p{
+    padding: 10px;
+}
+.child12:hover{
+    margin-top: 10px;
+}
+.header6 .buy{
+    background-color: red;
+    padding: 0px 10px;
+
+}
+/* ======================================================================================================================================== */
+.header7{
+    display:flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.u4 li{
+    list-style-type: none;
+    padding: 0px 40px;
+}
+.child13{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child13 p{
+    padding: 10px;
+}
+.child13:hover{
+    margin-top: 10px;
+}
+.star{
+    color: orange;
+    padding: 10px;
+}
+.child14{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child14 p{
+    padding: 10px;
+}
+.child14.buy{
+    margin-top: 10px;
+}
+.child15{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child15 p{
+    padding: 10px;
+}
+.child15:hover{
+    margin-top: 10px;
+}
+.child16{
+    border: 4px solid hotpink;
+    text-align: center;
+    padding: 25px 6px;
+}
+.child16 p{
+    padding: 10px;
+}
+.child16:hover{
+    margin-top: 10px;
+}
+.header7 .buy{
+    background-color: red;
+    padding: 0px 10px;
+
+}
+/* ================================================================================================================= */
+
+.header8{
+    text-align: center;
+    background-color: lightgrey;
+    padding: 20px 0px;
+}
+.header8 a{
+    text-decoration: none;
+}
+
+/* ======================================================================================================================== */
+
+.header9 table{
+    width:100%;
+    background-color: darkslateblue;
+    color: white;
+    padding: 30px 0px;
+}
+th{
+    padding-top: 20px 0px
+}
+td{
+    padding: 0px 110px;
+}
